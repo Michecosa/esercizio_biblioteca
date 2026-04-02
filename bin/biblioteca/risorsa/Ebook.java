@@ -8,7 +8,7 @@ public class Ebook extends Risorsa {
 
     public int getFormato() {return formato;}
 
-    public void setFormato() {
+    public void setFormato(String formato) {
         if (formato.equals("")) {
             System.out.println("Errore. formato non può essere vuoto");
         } else {

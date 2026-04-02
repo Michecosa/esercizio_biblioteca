@@ -8,7 +8,7 @@ public class Rivista extends Risorsa{
 
     public int getNumeroRivista() {return numeroRivista;}
 
-    public void setNumeroRivista() {
+    public void setNumeroRivista(int numeroRivista) {
         if (numeroRivista <= 0) {
             System.out.println("Errore. Numero rivista deve essere maggiore di 0");
         } else {

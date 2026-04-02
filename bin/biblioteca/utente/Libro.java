@@ -6,7 +6,7 @@ public class Libro extends Risorsa{
         this.autore = autore;
     }
 
-    public String getAutore() {return autore};
+    public String getAutore() {return autore;}
 
     public void setAutore(String autore) {
         if (autore.equals("")) {

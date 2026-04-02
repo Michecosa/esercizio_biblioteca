@@ -7,6 +7,7 @@ public abstract class Risorsa {
         this.titolo = titolo;
         this.annoPubblicazione = annoPubblicazione;
         this.codice = codice;
+    }
 
         // GETTER
         public String getTitolo() {return titolo;}
@@ -32,4 +33,3 @@ public abstract class Risorsa {
         }
 
     }
-}
