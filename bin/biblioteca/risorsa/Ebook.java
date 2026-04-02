@@ -1,5 +1,3 @@
-package biblioteca.risorsa;
-
 public class Ebook extends Risorsa {
      private String formato;
 
@@ -8,7 +6,7 @@ public class Ebook extends Risorsa {
         this.formato = formato;
     }
 
-    public String getFormato() {return formato;}
+    public int getFormato() {return formato;}
 
     public void setFormato(String formato) {
         if (formato.equals("")) {

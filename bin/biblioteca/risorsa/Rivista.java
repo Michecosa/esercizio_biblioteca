@@ -1,5 +1,3 @@
-package biblioteca.risorsa;
-
 public class Rivista extends Risorsa{
     private int numeroRivista;
 

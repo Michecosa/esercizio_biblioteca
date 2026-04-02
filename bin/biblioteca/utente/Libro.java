@@ -1,5 +1,3 @@
-package biblioteca.risorsa;
-
 public class Libro extends Risorsa{
     private String autore;
 

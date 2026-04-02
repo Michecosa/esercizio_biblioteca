@@ -1,5 +1,3 @@
-package biblioteca.risorsa;
-
 public abstract class Risorsa {
     private String titolo;
     private int annoPubblicazione;
@@ -16,7 +14,7 @@ public abstract class Risorsa {
 
         public int getAnnoPubblicazione() {return annoPubblicazione;}
 
-        public String codice() {return codice;}
+        public String getCodice() {return codice;}
 
         //SETTER
         public void setTitolo(String titolo) {
@@ -33,4 +31,5 @@ public abstract class Risorsa {
             System.out.println("Anno di pubblicazione: " + annoPubblicazione);
             System.out.println("Codice: " + codice);
         }
+
     }
