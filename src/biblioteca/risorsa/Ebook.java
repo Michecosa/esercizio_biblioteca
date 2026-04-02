@@ -20,11 +20,11 @@ public class Ebook extends Risorsa {
 
     @Override
     public void visualizzaDettagli() {
-        System.out.println("╔══════════════════════════════╗");
-        System.out.println("║           EBOOK              ║");
-        System.out.println("╠══════════════════════════════╣");
+        System.out.println("═════════════════════════════════════════════════");
+        System.out.println("                    EBOOK                        ");
+        System.out.println("═════════════════════════════════════════════════");
         super.visualizzaDettagli();
-        System.out.println("║ formato : " + formato);
-        System.out.println("╚══════════════════════════════╝");
+        System.out.println(" formato : " + formato);
+        System.out.println("═════════════════════════════════════════════════");
     }
 }

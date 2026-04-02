@@ -20,11 +20,11 @@ public class Libro extends Risorsa{
 
     @Override
     public void visualizzaDettagli() {
-        System.out.println("╔══════════════════════════════╗");
-        System.out.println("║           LIBRO              ║");
-        System.out.println("╠══════════════════════════════╣");
+        System.out.println("═════════════════════════════════════════════════");
+        System.out.println("                      LIBRO                      ");
+        System.out.println("═════════════════════════════════════════════════");
         super.visualizzaDettagli();
-        System.out.println("║ autore  : " + autore);
-        System.out.println("╚══════════════════════════════╝");
+        System.out.println(" autore  : " + autore);
+        System.out.println("═════════════════════════════════════════════════");
     }
 }
