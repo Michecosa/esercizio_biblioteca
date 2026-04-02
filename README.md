@@ -25,7 +25,7 @@ Contiene la logica relativa ai beni della biblioteca.
 * **Utente**: Gestisce l'anagrafica (nome, idUtente) e la lista delle risorse attualmente in prestito (`ArrayList<Risorsa>`).
 
 ### pacchetto: `biblioteca`
-* **Biblioteca**: Classe core che contiene l'inventario completo e l'elenco degli utenti registrati. Gestisce le operazioni di ricerca e stampa globale.
+* **GestoreBiblioteca**: Classe che contiene l'inventario completo e l'elenco degli utenti registrati. Gestisce le operazioni di ricerca e stampa globale.
 
 ### pacchetto: `main`
 * **Main**: Punto di ingresso dell'applicazione dove viene simulato l'inserimento dei dati e vengono dimostrate le funzionalità richieste.
