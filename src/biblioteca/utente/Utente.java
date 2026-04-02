@@ -38,7 +38,7 @@ public class Utente {
     public void stampaRisorse() {
         System.out.println("\n--- Risorse in prestito a: " + nome + " (ID: " + idUtente + ") ---");
         if (risorseInPrestito.isEmpty()) {
-            System.out.println("Nessuna risorsa attualmente in prestito.");
+            System.out.println("Nessuna risorsa attualmente in prestito");
         } else {
             for (Risorsa r : risorseInPrestito) {
                 // visualizzaDettagli() stampa cose diverse
