@@ -31,7 +31,7 @@ public class Main {
         boolean esci = false;
 
         while (!esci) {
-            System.out.println("\n--- MENU BIBLIOTECA ---");
+            System.out.println("\n--- MENU' BIBLIOTECA ---");
             System.out.println("1. Visualizza tutti i Libri");
             System.out.println("2. Visualizza tutti gli Ebook");
             System.out.println("3. Visualizza tutte le Riviste");
@@ -78,7 +78,7 @@ public class Main {
                     System.out.print("Inserisci il codice della risorsa da prendere: ");
                     String codiceCercato = scanner.nextLine();
                     
-                    // Cercho la risorsa nell'inventario
+                    // Cerco la risorsa nell'inventario
                     Risorsa trovata = null;
                     for (Risorsa r : miaBiblioteca.getInventario()) {
                         if (r.codice().equalsIgnoreCase(codiceCercato)) {

@@ -3,22 +3,23 @@ package biblioteca.risorsa;
 public abstract class Risorsa {
     private String titolo;
     private int annoPubblicazione;
-    private String codice; //primaryKey autoincrement
+    private String codice; 
 
+    //costruttore
     public Risorsa(String titolo, int annoPubblicazione, String codice) {
         this.titolo = titolo;
         this.annoPubblicazione = annoPubblicazione;
         this.codice = codice;
     }
 
-        // GETTER
+        // Getter
         public String getTitolo() {return titolo;}
 
         public int getAnnoPubblicazione() {return annoPubblicazione;}
 
         public String codice() {return codice;}
 
-        //SETTER
+        //Setter
         public void setTitolo(String titolo) {
             this.titolo = titolo;
         }
