@@ -20,8 +20,12 @@ public class Rivista extends Risorsa{
 
     @Override
     public void visualizzaDettagli() {
+        System.out.println("╔══════════════════════════════╗");
+        System.out.println("║          RIVISTA             ║");
+        System.out.println("╠══════════════════════════════╣");
         super.visualizzaDettagli();
-        System.out.println("Numero rivista: " + numeroRivista);
+        System.out.println("║ numero  : " + numeroRivista);
+        System.out.println("╚══════════════════════════════╝");
     }
 
 }

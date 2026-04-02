@@ -29,8 +29,9 @@ public abstract class Risorsa {
 
         //stampa dettagli della risorsa
         public void visualizzaDettagli() {
-            System.out.println("Titolo: " + titolo);
-            System.out.println("Anno di pubblicazione: " + annoPubblicazione);
-            System.out.println("Codice: " + codice);
+            System.out.println("=====================================");
+            System.out.println("║ titolo  : " + titolo);
+            System.out.println("║ anno    : " + annoPubblicazione);
+            System.out.println("║ codice  : " + codice);
         }
     }
